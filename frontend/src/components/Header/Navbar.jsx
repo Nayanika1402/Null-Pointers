@@ -14,9 +14,11 @@ const Navbar = () => {
             src="https://img.freepik.com/free-vector/cute-penguin-waving-hand-cartoon-vector-icon-illustration-animal-nature-icon-concept-isolated_138676-4654.jpg?w=360"
             alt="logo"
           />
-          <h2>FindO.</h2>
+          <h2>
+            Find <span className="brandO">O</span>.
+          </h2>
         </div>
-        <ul className={active?"navListt":"navList"}>
+        <ul className={active ? "navListt" : "navList"}>
           <li>
             <Link className="navLinks" to={"/"}>
               Home
@@ -42,11 +44,13 @@ const Navbar = () => {
               Register
             </Link>
           </li>
-          <button className="navButton">
-            <Link className="navLinksBtn" to={"/about"}>
-              Login
-            </Link>
-          </button>
+          <div className="navButtonContainer">
+            <button className="navButton">
+              <Link className="navLinksBtn" to={"/about"}>
+                Login
+              </Link>
+            </button>
+          </div>
         </ul>
         <div className="menuButtons">
           {active ? (
