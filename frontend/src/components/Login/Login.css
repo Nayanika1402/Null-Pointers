@@ -105,6 +105,9 @@
   .loginInputs input {
     width: 35rem;
   }
+  .loginText {
+    font-size: 5.5rem;
+}
 }
 @media (max-width: 380px) {
   .loginInputs input {
