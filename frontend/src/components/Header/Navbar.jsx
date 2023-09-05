@@ -46,7 +46,7 @@ const Navbar = () => {
           </li>
           <div className="navButtonContainer">
             <button className="navButton">
-              <Link className="navLinksBtn" to={"/about"}>
+              <Link className="navLinksBtn" to={"/login"}>
                 Login
               </Link>
             </button>

@@ -15,3 +15,17 @@ body{
   font-family: 'Roboto', sans-serif;
 
 }
+::-webkit-scrollbar {
+  width: 1rem;
+  border-radius: 0.5rem;
+  background-color: #db7272;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #0bf0bd;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #ffd775;
+}
