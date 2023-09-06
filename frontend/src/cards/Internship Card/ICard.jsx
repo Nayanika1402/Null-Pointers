@@ -1,12 +1,12 @@
 import './Icard.css'
 
-const ICard = ({role,companyName}) => {
+const ICard = ({role,companyName , imgUrl}) => {
   return (
     <div>
       <div className="card">
         <div className="card__img">
           <img
-            src="https://img.freepik.com/premium-vector/international-internship-word-concepts-banner-interning-overseas-infographics-with-linear-icons-green-background-isolated-creative-typography-vector-outline-color-illustration-with-text_106317-5070.jpg"
+            src={imgUrl}
             alt="Internship"
           />
         </div>
