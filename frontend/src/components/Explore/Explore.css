@@ -4,7 +4,7 @@
   align-items: center;
   padding: 40px 5px;
   flex-direction: column;
-  gap: 3.5rem;
+  gap: 8.5rem;
 }
 .upperSectionHeadings h2 {
   font-family: "Ubuntu", sans-serif;
@@ -20,6 +20,15 @@
 .hackathons h3 span {
   color: #37dbff;
 }
+.internships h3 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 4.5rem;
+  font-weight: 800;
+  color: black;
+}
+.internships h3 span {
+  color: #ff3f58;
+}
 .upperSectionHeadings h2 span {
   color: #ff3f58;
 }
@@ -31,6 +40,15 @@
   gap: 5rem;
 }
 .hackathons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 85%;
+  gap: 5rem;
+
+}
+.internships {
   display: flex;
   justify-content: center;
   align-items: center;

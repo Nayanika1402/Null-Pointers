@@ -1,6 +1,6 @@
 import './Icard.css'
 
-const ICard = () => {
+const ICard = ({role,companyName}) => {
   return (
     <div>
       <div className="card">
@@ -10,9 +10,9 @@ const ICard = () => {
             alt="Internship"
           />
         </div>
-        <div className="card__subtitle">Web Devloper</div>
+        <div className="card__subtitle">{role}</div>
         <div className="card__wrapper">
-          <div className="card__title">XYZ Infotech</div>
+          <div className="card__title">{companyName}</div>
           <div className="card__icon">
             <svg
               xmlns="http://www.w3.org/2000/svg"
