@@ -84,6 +84,7 @@ const Explore = () => {
               );
             })}
           </div>
+          <button className="showmore">Show More</button>
         </div>
         <div className="internships">
           <h3>
@@ -101,6 +102,7 @@ const Explore = () => {
               );
             })}
           </div>
+          <button className="showmore">Show More</button>
         </div>
         <div className="techEvents">
           <h3>
@@ -117,11 +119,12 @@ const Explore = () => {
                 />
               );
             })} */}
-            <TCard/>
-            <TCard/>
-            <TCard/>
-            <TCard/>
+            <TCard />
+            <TCard />
+            <TCard />
+            <TCard />
           </div>
+          <button className="showmore">Show More</button>
         </div>
       </div>
     </div>

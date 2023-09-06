@@ -75,3 +75,24 @@
   gap: 5rem;
 
 }
+
+
+.showmore {
+    padding: 13px 24px;
+    border-radius: 30px;
+    border: none;
+      font-family: "Ubuntu", sans-serif;
+  font-weight: 800;
+
+    font-size: 1.4rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: #e7eaea;
+  transition: 0.5s all;
+  cursor: pointer;
+
+}
+
+.showmore:hover{
+  background-color: #ff3f58;
+  transition: 0.5s all;
+}
