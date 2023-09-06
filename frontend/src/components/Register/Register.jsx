@@ -1,5 +1,4 @@
-
-import './Register.css'
+import "./Register.css";
 const Register = () => {
   return (
     <section>
@@ -8,7 +7,7 @@ const Register = () => {
           Register <span>Here</span>
         </h1>
         <p className="rwelcomeText">
-          Join{" "}
+          Join
           <span className="black">
             Find <span className="red">O</span>
           </span>
@@ -23,11 +22,7 @@ const Register = () => {
           <form className="rloginForm">
             <div className="rloginInputs">
               <label htmlFor="name">Name</label>
-              <input
-                type="text"
-                id="name"
-                placeholder="Enter Your Name..."
-              />
+              <input type="text" id="name" placeholder="Enter Your Name..." />
             </div>
             <div className="rloginInputs">
               <label htmlFor="phone">Phone Number</label>
@@ -78,13 +73,13 @@ const Register = () => {
               />
             </div>
             <div className="rloginButtonContainer">
-              <button className="loginButton">Register</button>
+              <button className="rloginButton">Register</button>
             </div>
           </form>
         </div>
       </div>
     </section>
   );
-}
+};
 
-export default Register
+export default Register;
