@@ -8,7 +8,7 @@ const Register = () => {
           Register <span>Here</span>
         </h1>
         <p className="rwelcomeText">
-          Join{" "}
+          Join
           <span className="black">
             Find <span className="red">O</span>
           </span>

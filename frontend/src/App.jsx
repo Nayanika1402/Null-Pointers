@@ -5,6 +5,7 @@ import Explore from './components/Explore/Explore'
 import Register from './components/Register/Register'
 import {Route,Routes} from 'react-router-dom'
 import LoginPage from './pages/LoginPage'
+import ICard from './cards/Internship Card/ICard'
 function App() {
   return (
     <>
@@ -14,6 +15,8 @@ function App() {
         <Route path="/explore" element={<Explore />} />
         <Route path="/login" element={<LoginPage/>} />
         <Route path="/register" element={<Register/>} />
+        <Route path="/card" element={<ICard/>} />
+
       </Routes>
     </>
   );
