@@ -58,13 +58,13 @@
 }
 
 .rloginButton {
-  width: 90px;
-  height: 40px;
+  width: 106px;
+  height: 45px;
   border-radius: 30px;
   background-color: #0bf0bd;
   border: none;
   transition: 0.3s all;
-  translate: 0px -4px;
+  translate: 0px -7px;
   color: #fff;
   font-family: "Roboto", sans-serif;
   font-weight: 600;
@@ -76,8 +76,8 @@
   translate: 0px 0px;
 }
 .rloginButtonContainer {
-  width: 90px;
-  height: 40px;
+  width: 106px;
+  height: 45px;
   border-radius: 30px;
   background-color: #000000;
 }
